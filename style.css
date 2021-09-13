@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, .9);
 }
 
 .d-bloc .a-btn:hover,
@@ -332,9 +332,7 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover
-/* ,.nav > li a:focus */
-{
+.nav > li a:hover {
     background: transparent;
 }
 
@@ -683,12 +681,13 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+	font-size: 20px;
 }
 
 .h1 {
@@ -781,11 +780,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFC894!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #EE692B;
     color: #FFFFFF!important;
 }
 
@@ -828,7 +827,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
